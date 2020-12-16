@@ -1,0 +1,33 @@
+﻿日志文件不要删除，否则会爆错
+
+
+http://114.80.96.19:83  目标地址无法访问 -> 捕获异常 System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 ADS_Web后台弱口令扫描.Url_IsOk.Prepare(String url) 位置 C:\Users\wintry\Desktop\Web后台弱口令扫描_多线程\Url_IsOk.cs:行号 96
+目标http://47.99.247.24:8088/logincheck.php出现错误： System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 ADS_Web后台弱口令扫描.Form1.Brute(String url, String username, String password, Int64 error_content) 位置 C:\Users\wintry\Desktop\Web后台弱口令扫描_多线程\Form1.cs:行号 298
+目标http://47.99.247.24:8088/logincheck.php出现错误： System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 ADS_Web后台弱口令扫描.Form1.GetCookie(String url, String username, String password) 位置 C:\Users\wintry\Desktop\Web后台弱口令扫描_多线程\Form1.cs:行号 199
+   在 ADS_Web后台弱口令扫描.Form1.Brute(String url, String username, String password, Int64 error_content) 位置 C:\Users\wintry\Desktop\Web后台弱口令扫描_多线程\Form1.cs:行号 244
+目标http://118.112.183.47:8800/logincheck.php出现错误： System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 ADS_Web后台弱口令扫描.Form1.Brute(String url, String username, String password, Int64 error_content) 位置 C:\Users\wintry\Desktop\Web后台弱口令扫描_多线程\Form1.cs:行号 298
+目标http://118.112.183.47:8800/logincheck.php出现错误： System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 ADS_Web后台弱口令扫描.Form1.GetCookie(String url, String username, String password) 位置 C:\Users\wintry\Desktop\Web后台弱口令扫描_多线程\Form1.cs:行号 199
+   在 ADS_Web后台弱口令扫描.Form1.Brute(String url, String username, String password, Int64 error_content) 位置 C:\Users\wintry\Desktop\Web后台弱口令扫描_多线程\Form1.cs:行号 244
+目标http://183.63.120.220:18081/logincheck.php出现错误： System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 ADS_Web后台弱口令扫描.Form1.GetCookie(String url, String username, String password) 位置 C:\Users\wintry\Desktop\Web后台弱口令扫描_多线程\Form1.cs:行号 199
+   在 ADS_Web后台弱口令扫描.Form1.Brute(String url, String username, String password, Int64 error_content) 位置 C:\Users\wintry\Desktop\Web后台弱口令扫描_多线程\Form1.cs:行号 244
+目标http://183.63.120.220:18081/logincheck.php出现错误： System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 ADS_Web后台弱口令扫描.Form1.Brute(String url, String username, String password, Int64 error_content) 位置 C:\Users\wintry\Desktop\Web后台弱口令扫描_多线程\Form1.cs:行号 298
